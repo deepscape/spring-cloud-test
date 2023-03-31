@@ -1,0 +1,10 @@
+/Users/hdkim/Documents/workMain/ideaProjects/spring-cloud-test/License Service/src/main/java/com/optimagrowth/license/model/Organization.java
+/Users/hdkim/Documents/workMain/ideaProjects/spring-cloud-test/License Service/src/main/java/com/optimagrowth/license/service/client/OrganizationRestTemplateClient.java
+/Users/hdkim/Documents/workMain/ideaProjects/spring-cloud-test/License Service/src/main/java/com/optimagrowth/license/model/License.java
+/Users/hdkim/Documents/workMain/ideaProjects/spring-cloud-test/License Service/src/main/java/com/optimagrowth/license/respository/LicenseRepository.java
+/Users/hdkim/Documents/workMain/ideaProjects/spring-cloud-test/License Service/src/main/java/com/optimagrowth/license/config/ServiceConfig.java
+/Users/hdkim/Documents/workMain/ideaProjects/spring-cloud-test/License Service/src/main/java/com/optimagrowth/license/service/client/OrganizationDiscoveryClient.java
+/Users/hdkim/Documents/workMain/ideaProjects/spring-cloud-test/License Service/src/main/java/com/optimagrowth/license/service/client/OrganizationFeignClient.java
+/Users/hdkim/Documents/workMain/ideaProjects/spring-cloud-test/License Service/src/main/java/com/optimagrowth/license/service/LicenseService.java
+/Users/hdkim/Documents/workMain/ideaProjects/spring-cloud-test/License Service/src/main/java/com/optimagrowth/license/LicenseServiceApplication.java
+/Users/hdkim/Documents/workMain/ideaProjects/spring-cloud-test/License Service/src/main/java/com/optimagrowth/license/controller/LicenseController.java

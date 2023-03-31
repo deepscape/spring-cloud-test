@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eureka-server    # spring cloud config client 가 찾는 서비스를 알 수 있도록 eureka service 이름 지정
+  cloud:
+    config:
+      uri: http://localhost:8071
+    loadbalancer:
+      ribbon:
+        enabled: false    # 기본 로드 밸런서를 ribbon 에서 spring cloud loadbalancer 로 변경

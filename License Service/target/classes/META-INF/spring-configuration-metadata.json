@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "example",
+      "type": "com.optimagrowth.license.config.ServiceConfig",
+      "sourceType": "com.optimagrowth.license.config.ServiceConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "example.property",
+      "type": "java.lang.String",
+      "sourceType": "com.optimagrowth.license.config.ServiceConfig"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,13 @@
+server:
+  port: 8070    # eureka-server 의 수신 포트 설정
+
+eureka:
+  instance:
+    hostname: eurekaserver    # eureka instance 의 host name 설정
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+  server:
+    waitTimeInMsWhenSyncEmpty: 5    # 서버가 요청을 받기 전 초기 대기 시간 설정

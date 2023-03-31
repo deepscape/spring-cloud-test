@@ -1,0 +1,5 @@
+com/optimagrowth/organization/repository/OrganizationRepository.class
+com/optimagrowth/organization/model/Organization.class
+com/optimagrowth/organization/OrganizationServiceApplication.class
+com/optimagrowth/organization/controller/OrganizationController.class
+com/optimagrowth/organization/service/OrganizationService.class

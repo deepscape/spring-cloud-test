@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+
+  cloud:
+    config:
+      server:
+        native:
+          # search-locations: file:///Users/hdkim/Documents/workMain/ideaProjects/spring-cloud-test/configserver
+          search-locations: classpath:/config
+
+server:
+  port: 8071
+encrypt:
+  key: secretkey

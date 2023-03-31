@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.optimagrowth.eureka.EurekaserverApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.991 s - in com.optimagrowth.eureka.EurekaserverApplicationTests
