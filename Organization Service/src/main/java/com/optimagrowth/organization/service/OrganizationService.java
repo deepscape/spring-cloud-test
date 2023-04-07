@@ -3,6 +3,8 @@ package com.optimagrowth.organization.service;
 import java.util.Optional;
 import java.util.UUID;
 
+import com.optimagrowth.organization.events.source.SimpleSourceBean;
+import com.optimagrowth.organization.utils.ActionEnum;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +17,9 @@ public class OrganizationService {
     @Autowired
     private OrganizationRepository repository;
 
+    @Autowired
+    SimpleSourceBean simpleSourceBean;
+
     public Organization findById(String organizationId) {
         Optional<Organization> opt = repository.findById(organizationId);
         return (opt.isPresent()) ? opt.get() : null;
@@ -23,8 +28,10 @@ public class OrganizationService {
     public Organization create(Organization organization){
         organization.setId( UUID.randomUUID().toString());
         organization = repository.save(organization);
-        return organization;
 
+        simpleSourceBean.publishOrganizationChange(ActionEnum.CREATED, organization.getId());
+
+        return organization;
     }
 
     public void update(Organization organization){
