@@ -29,7 +29,7 @@ public class OrganizationService {
         organization.setId( UUID.randomUUID().toString());
         organization = repository.save(organization);
 
-        simpleSourceBean.publishOrganizationChange(ActionEnum.CREATED, organization.getId());
+        simpleSourceBean.publishOrganizationChange(ActionEnum.SAVE, organization.getId());
 
         return organization;
     }
