@@ -37,8 +37,7 @@ public class OrganizationController {
     @RolesAllowed("ADMIN")
     @DeleteMapping(value="/{organizationId}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void deleteOrganization( @PathVariable("id") String id,  @RequestBody Organization organization) {
-        service.delete(organization);
+    public void deleteOrganization( @PathVariable("organizationId") String organizationId) {
+        service.delete( organizationId );
     }
-
 }

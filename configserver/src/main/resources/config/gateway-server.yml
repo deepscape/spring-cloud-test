@@ -11,6 +11,11 @@ eureka:
       defaultZone: http://localhost:8070/eureka/
 
 spring:
+  zipkin:
+    baseUrl: http://zipkin:9411
+    sleuth:
+      sampler:
+        percentage: 1
   cloud:
     # 기본 로드 밸런서를 ribbon 에서 spring cloud loadbalancer 로 변경
     loadbalance.ribbon.enabled: false
